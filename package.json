@@ -1,6 +1,6 @@
 {
   "name": "mp-promise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automatically promisify your WeChat Mini Program api functions! 自动promisify微信小程序接口公式",
   "main": "index.js",
   "scripts": {
