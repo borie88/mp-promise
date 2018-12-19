@@ -1,4 +1,4 @@
-export const wxp = new Proxy({}, {
+const wxp = new Proxy({}, {
   get (target, key) {
     if (key === '__esModule') return
     const method = wx[key]
@@ -11,3 +11,5 @@ export const wxp = new Proxy({}, {
       })
   }
 })
+
+module.exports = wxp
