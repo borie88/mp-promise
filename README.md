@@ -4,7 +4,7 @@ Automatically promisify your WeChat Mini Program API functions!
 
 ## Installation
 ---
-1. Install the module through npm via ```npm i mp-promise``` or clone this repository and save in your mini program directory.
+1. Clone this repository and save mp-promise.js somewhere in your mini program directory.
 2. Import the module at the top of your page, component, or file. Then you can simply use ```wxp.``` instead of ```wx.``` to return a promise to any mini program API function that returns a ```success``` or ```fail```:
 ```js
 import wxp from 'mp-promise'
