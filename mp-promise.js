@@ -3,7 +3,7 @@ const wxp = new Proxy({}, {
     if (key === '__esModule') return
     const method = wx[key]
     if (!method) return
-    return (args) =>
+    return (args = {}) =>
       new Promise((resolve, reject) => {
         args.success = (res) => resolve(res)
         args.fail = (err) => reject(err)
